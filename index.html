@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Completo de JavaScript</title>
+</head>
+<body>
+
+    <h1>Interatividade com JavaScript</h1>
+
+    <!-- 1. Variáveis -->
+    <section>
+        <h2>1. Variáveis</h2>
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" id="nome" placeholder="Nome">
+        <label for="idade">Digite sua idade:</label>
+        <input type="number" id="idade" placeholder="Idade">
+        <button onclick="exibirVariaveis()">Enviar</button>
+        <p id="variavel-demo"></p>
+    </section>
+
+    <!-- 2. Operações Matemáticas e Lógicas -->
+    <section>
+        <h2>2. Operações Matemáticas e Lógicas</h2>
+        <label for="numero1">Digite um número:</label>
+        <input type="number" id="numero1" placeholder="Número 1">
+        <label for="numero2">Digite outro número:</label>
+        <input type="number" id="numero2" placeholder="Número 2">
+        <button onclick="operacoesMatematicas()">Calcular</button>
+        <p id="operacoes-demo"></p>
+    </section>
+
+    <!-- 3. Funções -->
+    <section>
+        <h2>3. Funções</h2>
+        <button onclick="mostrarSaudacao()">Mostrar Saudação</button>
+        <p id="funcoes-demo"></p>
+    </section>
+
+    <!-- 4. Eventos -->
+    <section>
+        <h2>4. Eventos</h2>
+        <button onclick="eventoExemplo()">Clique Aqui</button>
+        <p id="eventos-demo"></p>
+    </section>
+
+    <!-- 5. Manipulação do DOM -->
+    <section>
+        <h2>5. Manipulação do DOM</h2>
+        <button onclick="mudarCor()">Mudar Cor de Fundo</button>
+        <p id="dom-demo">Clique no botão para mudar a cor do fundo.</p>
+    </section>
+
+    <!-- 6. Estrutura Condicional -->
+    <section>
+        <h2>6. Estrutura Condicional</h2>
+        <button onclick="verificarIdade()">Verificar Idade</button>
+        <p id="condicional-demo"></p>
+    </section>
+
+    <!-- 7. Estrutura de Repetição -->
+    <section>
+        <h2>7. Estrutura de Repetição</h2>
+        <label for="quantidade">Quantidade de repetições:</label>
+        <input type="number" id="quantidade" placeholder="Quantidade">
+        <button onclick="mostrarRepeticoes()">Repetir</button>
+        <p id="repeticao-demo"></p>
+    </section>
+
+    <!-- 8. Tipos de Dados -->
+    <section>
+        <h2>8. Tipos de Dados</h2>
+        <button onclick="mostrarTiposDados()">Mostrar Tipos de Dados</button>
+        <p id="tipos-demo"></p>
+    </section>
+
+    <!-- 9. Arrays -->
+    <section>
+        <h2>9. Arrays</h2>
+        <label for="fruta">Digite o nome de uma fruta:</label>
+        <input type="text" id="fruta" placeholder="Fruta">
+        <button onclick="adicionarFruta()">Adicionar Fruta</button>
+        <p id="array-demo"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
